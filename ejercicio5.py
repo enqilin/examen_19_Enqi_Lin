@@ -18,8 +18,10 @@ def hollow_triangle(n):
         else:
             lista.append("#"*(n-+3))
     print(lista)
-hollow_triangle(6)
+
 
 
 
 if __name__=='__main__':
+    hollow_triangle(6)
+    hollow_triangle(9)
