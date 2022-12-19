@@ -1,12 +1,10 @@
-import re
-def search(frase):
-    patron = re.compile(r'(\w+)(\s)(\w+)')
-    resultado = patron.search(frase)
-    if resultado:
-        print resultado.group(1)
-        print resultado.group(3)
-    else:
-        print "No se encontro coincidencia"
 
-if __name__ == '__main__':
+def search(frase):
+    str=frase.slower()
+    if str in "tree fiddy" and "three fifty" or "3.50":
+        return True
+    else:
+        return "No coincidencia"
+    
+if __name__=="__main__":
     search("Siempre va a tratarse de Tree Fiddy")

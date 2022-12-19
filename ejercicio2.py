@@ -11,10 +11,15 @@ Para el grupo "3x - x", el exponente de la base "x" es 1 en ambos términos, por
 Para el grupo "2xy - zx", el exponente de la base "x" es 1 en ambos términos, por lo que se pueden combinar utilizando la regla de la suma de exponentes: 2xy - zx = (2-z)xy
 Reemplazar cada grupo de términos simplificados en la expresión original: "3x - x + 2xy - zx" se convierte en "2x + (2-z)xy"""
 
+
+import numpy as np
 def simplify(polimonio):
-    if 
+    
+    if polimonio[0] == "+":
+        polimonio = polimonio[1:]
+
 
 
 
 if __name__ == '__main__':
-    simplify()
+    simplify(3x-zx+2xy-x)
