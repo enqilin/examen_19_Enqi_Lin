@@ -13,10 +13,11 @@ hollow_triangle(9)
 def hollow_triangle(n):
     lista=[]
     for i in range(n):
-        lista.append("_"*+"#"+"_"*(i+2)+"#"+"_"*(n-i-1)+"_"*i)
-    for i in lista:
-     return print(i)
-    
+        if 0<=i<=n-1:
+          lista.append("_"*(n-i-1)+"#"+"_"*(i)+"#"+"_"*(n-i-1))
+        else:
+            lista.append("#"*(n-+3))
+    print(lista)
 hollow_triangle(6)
 
 
