@@ -23,3 +23,5 @@ def simplify(polimonio):
 
 if __name__ == '__main__':
     simplify(3x-zx+2xy-x)
+
+    
